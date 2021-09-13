@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.proccess{
+    width: 500px;
+    height: 500px;
+    background-color: #fafafa;
+    animation: animacao 3s infinite;
+}
+
+@keyframes animacao{
+    0%{
+        background-color: #261C2C;
+        width: 150px;
+    }
+    25%{
+        background-color: #3E2C41;
+        width: 250px;
+    }
+    50%{
+        background-color: #5C527F;
+        width:350px;
+    }
+    100%{
+        background-color: #6E85B2;
+        width: 500px;
+    }
+}
